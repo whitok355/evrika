@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Monserrate';
+    src: url('./font/Montserrat-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --mainBlue: #098FCF;
+    --mainWhite: #FFFFFF;
+    --mainBlack: #000000;
+    --blue: #043C77;
+    --input: #D4D4D4;
+    --mainGrey: #565656;
+}
+
+.btn-text{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+button{
+    padding: 14px 72px;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+button{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--mainWhite);
+    background: var(--mainBlue);
+    border: none;
+}
+label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.container{
+    max-width: 1440px;   
+    padding: 0 160px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
